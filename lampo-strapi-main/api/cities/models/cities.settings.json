@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "name": "Cities",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "enable": {
+      "type": "boolean",
+      "default": true
+    },
+    "available": {
+      "type": "boolean",
+      "default": true
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}
